@@ -1,4 +1,5 @@
-#
+%YAML 1.2
+---
 # This list is used by git-shortlog to fix a few botched name translations
 # in the git archive, either because the author's full name was messed up
 # and/or not always written the same way, making contributions from the
@@ -8,409 +9,976 @@
 # For format details, see "MAPPING AUTHORS" in "man git-shortlog".
 #
 # Please keep this list dictionary sorted.
-#
-Aaron Durbin <adurbin@google.com>
-Abhinav Kumar <quic_abhinavk@quicinc.com> <abhinavk@codeaurora.org>
-Adam Oldham <oldhamca@gmail.com>
-Adam Radford <aradford@gmail.com>
-Adriana Reus <adi.reus@gmail.com> <adriana.reus@intel.com>
-Adrian Bunk <bunk@stusta.de>
-Akhil P Oommen <quic_akhilpo@quicinc.com> <akhilpo@codeaurora.org>
-Alan Cox <alan@lxorguk.ukuu.org.uk>
-Alan Cox <root@hraefn.swansea.linux.org.uk>
-Aleksandar Markovic <aleksandar.markovic@mips.com> <aleksandar.markovic@imgtec.com>
-Aleksey Gorelov <aleksey_gorelov@phoenix.com>
-Alexander Lobakin <alobakin@pm.me> <alobakin@dlink.ru>
-Alexander Lobakin <alobakin@pm.me> <alobakin@marvell.com>
-Alexander Lobakin <alobakin@pm.me> <bloodyreaper@yandex.ru>
-Alexandre Belloni <alexandre.belloni@bootlin.com> <alexandre.belloni@free-electrons.com>
-Alexei Starovoitov <ast@kernel.org> <alexei.starovoitov@gmail.com>
-Alexei Starovoitov <ast@kernel.org> <ast@fb.com>
-Alexei Starovoitov <ast@kernel.org> <ast@plumgrid.com>
-Alex Shi <alexs@kernel.org> <alex.shi@intel.com>
-Alex Shi <alexs@kernel.org> <alex.shi@linaro.org>
-Alex Shi <alexs@kernel.org> <alex.shi@linux.alibaba.com>
-Al Viro <viro@ftp.linux.org.uk>
-Al Viro <viro@zenIV.linux.org.uk>
-Andi Kleen <ak@linux.intel.com> <ak@suse.de>
-Andi Shyti <andi@etezian.org> <andi.shyti@samsung.com>
-Andreas Herrmann <aherrman@de.ibm.com>
-Andrej Shadura <andrew.shadura@collabora.co.uk>
-Andrej Shadura <andrew@shadura.me> <andrew@beldisplaytech.com>
-Andrew Morton <akpm@linux-foundation.org>
-Andrew Murray <amurray@thegoodpenguin.co.uk> <amurray@embedded-bits.co.uk>
-Andrew Murray <amurray@thegoodpenguin.co.uk> <andrew.murray@arm.com>
-Andrew Vasquez <andrew.vasquez@qlogic.com>
-Andrey Konovalov <andreyknvl@gmail.com> <andreyknvl@google.com>
-Andrey Ryabinin <ryabinin.a.a@gmail.com> <a.ryabinin@samsung.com>
-Andrey Ryabinin <ryabinin.a.a@gmail.com> <aryabinin@virtuozzo.com>
-Andrzej Hajda <andrzej.hajda@intel.com> <a.hajda@samsung.com>
-Andy Adamson <andros@citi.umich.edu>
-Antoine Tenart <atenart@kernel.org> <antoine.tenart@bootlin.com>
-Antoine Tenart <atenart@kernel.org> <antoine.tenart@free-electrons.com>
-Antonio Ospite <ao2@ao2.it> <ao2@amarulasolutions.com>
-Anup Patel <anup@brainfault.org> <anup.patel@wdc.com>
-Archit Taneja <archit@ti.com>
-Ard Biesheuvel <ardb@kernel.org> <ard.biesheuvel@linaro.org>
-Arnaud Patard <arnaud.patard@rtp-net.org>
-Arnd Bergmann <arnd@arndb.de>
-Atish Patra <atishp@atishpatra.org> <atish.patra@wdc.com>
-Axel Dyks <xl@xlsigned.net>
-Axel Lin <axel.lin@gmail.com>
-Bart Van Assche <bvanassche@acm.org> <bart.vanassche@sandisk.com>
-Bart Van Assche <bvanassche@acm.org> <bart.vanassche@wdc.com>
-Ben Gardner <bgardner@wabtec.com>
-Ben M Cahill <ben.m.cahill@intel.com>
-Björn Steinbrink <B.Steinbrink@gmx.de>
-Björn Töpel <bjorn@kernel.org> <bjorn.topel@gmail.com>
-Björn Töpel <bjorn@kernel.org> <bjorn.topel@intel.com>
-Boris Brezillon <bbrezillon@kernel.org> <b.brezillon.dev@gmail.com>
-Boris Brezillon <bbrezillon@kernel.org> <b.brezillon@overkiz.com>
-Boris Brezillon <bbrezillon@kernel.org> <boris.brezillon@bootlin.com>
-Boris Brezillon <bbrezillon@kernel.org> <boris.brezillon@free-electrons.com>
-Brian Avery <b.avery@hp.com>
-Brian King <brking@us.ibm.com>
-Brian Silverman <bsilver16384@gmail.com> <brian.silverman@bluerivertech.com>
-Cai Huoqing <cai.huoqing@linux.dev> <caihuoqing@baidu.com>
-Changbin Du <changbin.du@intel.com> <changbin.du@gmail.com>
-Changbin Du <changbin.du@intel.com> <changbin.du@intel.com>
-Chao Yu <chao@kernel.org> <chao2.yu@samsung.com>
-Chao Yu <chao@kernel.org> <yuchao0@huawei.com>
-Chris Chiu <chris.chiu@canonical.com> <chiu@endlessm.com>
-Chris Chiu <chris.chiu@canonical.com> <chiu@endlessos.org>
-Christian Borntraeger <borntraeger@linux.ibm.com> <borntraeger@de.ibm.com>
-Christian Borntraeger <borntraeger@linux.ibm.com> <cborntra@de.ibm.com>
-Christian Borntraeger <borntraeger@linux.ibm.com> <borntrae@de.ibm.com>
-Christian Brauner <brauner@kernel.org> <christian@brauner.io>
-Christian Brauner <brauner@kernel.org> <christian.brauner@canonical.com>
-Christian Brauner <brauner@kernel.org> <christian.brauner@ubuntu.com>
-Christophe Ricard <christophe.ricard@gmail.com>
-Christoph Hellwig <hch@lst.de>
-Colin Ian King <colin.king@intel.com> <colin.king@canonical.com>
-Colin Ian King <colin.king@intel.com> <colin.i.king@gmail.com>
-Corey Minyard <minyard@acm.org>
-Damian Hobson-Garcia <dhobsong@igel.co.jp>
-Daniel Borkmann <daniel@iogearbox.net> <danborkmann@googlemail.com>
-Daniel Borkmann <daniel@iogearbox.net> <danborkmann@iogearbox.net>
-Daniel Borkmann <daniel@iogearbox.net> <daniel.borkmann@tik.ee.ethz.ch>
-Daniel Borkmann <daniel@iogearbox.net> <dborkmann@redhat.com>
-Daniel Borkmann <daniel@iogearbox.net> <dborkman@redhat.com>
-Daniel Borkmann <daniel@iogearbox.net> <dxchgb@gmail.com>
-David Brownell <david-b@pacbell.net>
-David Woodhouse <dwmw2@shinybook.infradead.org>
-Dengcheng Zhu <dzhu@wavecomp.com> <dczhu@mips.com>
-Dengcheng Zhu <dzhu@wavecomp.com> <dengcheng.zhu@gmail.com>
-Dengcheng Zhu <dzhu@wavecomp.com> <dengcheng.zhu@imgtec.com>
-Dengcheng Zhu <dzhu@wavecomp.com> <dengcheng.zhu@mips.com>
-<dev.kurt@vandijck-laurijssen.be> <kurt.van.dijck@eia.be>
-Dmitry Baryshkov <dbaryshkov@gmail.com>
-Dmitry Baryshkov <dbaryshkov@gmail.com> <[dbaryshkov@gmail.com]>
-Dmitry Baryshkov <dbaryshkov@gmail.com> <dmitry_baryshkov@mentor.com>
-Dmitry Baryshkov <dbaryshkov@gmail.com> <dmitry_eremin@mentor.com>
-Dmitry Safonov <0x7f454c46@gmail.com> <dima@arista.com>
-Dmitry Safonov <0x7f454c46@gmail.com> <d.safonov@partner.samsung.com>
-Dmitry Safonov <0x7f454c46@gmail.com> <dsafonov@virtuozzo.com>
-Domen Puncer <domen@coderock.org>
-Douglas Gilbert <dougg@torque.net>
-Ed L. Cashin <ecashin@coraid.com>
-Erik Kaneda <erik.kaneda@intel.com> <erik.schmauss@intel.com>
-Evgeniy Polyakov <johnpol@2ka.mipt.ru>
-Ezequiel Garcia <ezequiel@vanguardiasur.com.ar> <ezequiel@collabora.com>
-Felipe W Damasio <felipewd@terra.com.br>
-Felix Kuhling <fxkuehl@gmx.de>
-Felix Moeller <felix@derklecks.de>
-Filipe Lautert <filipe@icewall.org>
-Finn Thain <fthain@linux-m68k.org> <fthain@telegraphics.com.au>
-Franck Bui-Huu <vagabon.xyz@gmail.com>
-Frank Rowand <frowand.list@gmail.com> <frank.rowand@am.sony.com>
-Frank Rowand <frowand.list@gmail.com> <frank.rowand@sonymobile.com>
-Frank Rowand <frowand.list@gmail.com> <frowand@mvista.com>
-Frank Zago <fzago@systemfabricworks.com>
-Gao Xiang <xiang@kernel.org> <gaoxiang25@huawei.com>
-Gao Xiang <xiang@kernel.org> <hsiangkao@aol.com>
-Gerald Schaefer <gerald.schaefer@linux.ibm.com> <geraldsc@de.ibm.com>
-Gerald Schaefer <gerald.schaefer@linux.ibm.com> <gerald.schaefer@de.ibm.com>
-Gerald Schaefer <gerald.schaefer@linux.ibm.com> <geraldsc@linux.vnet.ibm.com>
-Greg Kroah-Hartman <greg@echidna.(none)>
-Greg Kroah-Hartman <gregkh@suse.de>
-Greg Kroah-Hartman <greg@kroah.com>
-Greg Kurz <groug@kaod.org> <gkurz@linux.vnet.ibm.com>
-Gregory CLEMENT <gregory.clement@bootlin.com> <gregory.clement@free-electrons.com>
-Guo Ren <guoren@kernel.org> <guoren@linux.alibaba.com>
-Guo Ren <guoren@kernel.org> <ren_guo@c-sky.com>
-Gustavo Padovan <gustavo@las.ic.unicamp.br>
-Gustavo Padovan <padovan@profusion.mobi>
-Hanjun Guo <guohanjun@huawei.com> <hanjun.guo@linaro.org>
-Heiko Carstens <hca@linux.ibm.com> <h.carstens@de.ibm.com>
-Heiko Carstens <hca@linux.ibm.com> <heiko.carstens@de.ibm.com>
-Henk Vergonet <Henk.Vergonet@gmail.com>
-Henrik Kretzschmar <henne@nachtwindheim.de>
-Henrik Rydberg <rydberg@bitmath.org>
-Herbert Xu <herbert@gondor.apana.org.au>
-Huacai Chen <chenhuacai@kernel.org> <chenhc@lemote.com>
-Huacai Chen <chenhuacai@kernel.org> <chenhuacai@loongson.cn>
-Jacob Shin <Jacob.Shin@amd.com>
-Jaegeuk Kim <jaegeuk@kernel.org> <jaegeuk@google.com>
-Jaegeuk Kim <jaegeuk@kernel.org> <jaegeuk.kim@samsung.com>
-Jaegeuk Kim <jaegeuk@kernel.org> <jaegeuk@motorola.com>
-Jakub Kicinski <kuba@kernel.org> <jakub.kicinski@netronome.com>
-James Bottomley <jejb@mulgrave.(none)>
-James Bottomley <jejb@titanic.il.steeleye.com>
-James E Wilson <wilson@specifix.com>
-James Hogan <jhogan@kernel.org> <james@albanarts.com>
-James Hogan <jhogan@kernel.org> <james.hogan@imgtec.com>
-James Ketrenos <jketreno@io.(none)>
-Jan Glauber <jan.glauber@gmail.com> <jang@de.ibm.com>
-Jan Glauber <jan.glauber@gmail.com> <jang@linux.vnet.ibm.com>
-Jan Glauber <jan.glauber@gmail.com> <jglauber@cavium.com>
-Jarkko Sakkinen <jarkko@kernel.org> <jarkko.sakkinen@linux.intel.com>
-Jason Gunthorpe <jgg@ziepe.ca> <jgg@mellanox.com>
-Jason Gunthorpe <jgg@ziepe.ca> <jgg@nvidia.com>
-Jason Gunthorpe <jgg@ziepe.ca> <jgunthorpe@obsidianresearch.com>
-<javier@osg.samsung.com> <javier.martinez@collabora.co.uk>
-Javi Merino <javi.merino@kernel.org> <javi.merino@arm.com>
-Jayachandran C <c.jayachandran@gmail.com> <jayachandranc@netlogicmicro.com>
-Jayachandran C <c.jayachandran@gmail.com> <jchandra@broadcom.com>
-Jayachandran C <c.jayachandran@gmail.com> <jchandra@digeo.com>
-Jayachandran C <c.jayachandran@gmail.com> <jnair@caviumnetworks.com>
-<jean-philippe@linaro.org> <jean-philippe.brucker@arm.com>
-Jean Tourrilhes <jt@hpl.hp.com>
-Jeff Garzik <jgarzik@pretzel.yyz.us>
-Jeff Layton <jlayton@kernel.org> <jlayton@poochiereds.net>
-Jeff Layton <jlayton@kernel.org> <jlayton@primarydata.com>
-Jeff Layton <jlayton@kernel.org> <jlayton@redhat.com>
-Jens Axboe <axboe@suse.de>
-Jens Osterkamp <Jens.Osterkamp@de.ibm.com>
-Jernej Skrabec <jernej.skrabec@gmail.com> <jernej.skrabec@siol.net>
-Jessica Zhang <quic_jesszhan@quicinc.com> <jesszhan@codeaurora.org>
-Jiri Slaby <jirislaby@kernel.org> <jirislaby@gmail.com>
-Jiri Slaby <jirislaby@kernel.org> <jslaby@novell.com>
-Jiri Slaby <jirislaby@kernel.org> <jslaby@suse.com>
-Jiri Slaby <jirislaby@kernel.org> <jslaby@suse.cz>
-Jiri Slaby <jirislaby@kernel.org> <xslaby@fi.muni.cz>
-Jisheng Zhang <jszhang@kernel.org> <jszhang@marvell.com>
-Jisheng Zhang <jszhang@kernel.org> <Jisheng.Zhang@synaptics.com>
-Johan Hovold <johan@kernel.org> <jhovold@gmail.com>
-Johan Hovold <johan@kernel.org> <johan@hovoldconsulting.com>
-John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
-John Stultz <johnstul@us.ibm.com>
-Jordan Crouse <jordan@cosmicpenguin.net> <jcrouse@codeaurora.org>
-<josh@joshtriplett.org> <josh@freedesktop.org>
-<josh@joshtriplett.org> <josh@kernel.org>
-<josh@joshtriplett.org> <josht@linux.vnet.ibm.com>
-<josh@joshtriplett.org> <josht@us.ibm.com>
-<josh@joshtriplett.org> <josht@vnet.ibm.com>
-Juha Yrjola <at solidboot.com>
-Juha Yrjola <juha.yrjola@nokia.com>
-Juha Yrjola <juha.yrjola@solidboot.com>
-Julien Thierry <julien.thierry.kdev@gmail.com> <julien.thierry@arm.com>
-Kalyan Thota <quic_kalyant@quicinc.com> <kalyan_t@codeaurora.org>
-Kay Sievers <kay.sievers@vrfy.org>
-Kees Cook <keescook@chromium.org> <kees.cook@canonical.com>
-Kees Cook <keescook@chromium.org> <keescook@google.com>
-Kees Cook <keescook@chromium.org> <kees@outflux.net>
-Kees Cook <keescook@chromium.org> <kees@ubuntu.com>
-Keith Busch <kbusch@kernel.org> <keith.busch@intel.com>
-Keith Busch <kbusch@kernel.org> <keith.busch@linux.intel.com>
-Kenneth W Chen <kenneth.w.chen@intel.com>
-Kirill Tkhai <kirill.tkhai@openvz.org> <ktkhai@virtuozzo.com>
-Konstantin Khlebnikov <koct9i@gmail.com> <khlebnikov@yandex-team.ru>
-Konstantin Khlebnikov <koct9i@gmail.com> <k.khlebnikov@samsung.com>
-Koushik <raghavendra.koushik@neterion.com>
-Krishna Manikandan <quic_mkrishn@quicinc.com> <mkrishn@codeaurora.org>
-Krzysztof Kozlowski <krzk@kernel.org> <k.kozlowski.k@gmail.com>
-Krzysztof Kozlowski <krzk@kernel.org> <k.kozlowski@samsung.com>
-Krzysztof Kozlowski <krzk@kernel.org> <krzysztof.kozlowski@canonical.com>
-Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
-Kuogee Hsieh <quic_khsieh@quicinc.com> <khsieh@codeaurora.org>
-Leonardo Bras <leobras.c@gmail.com> <leonardo@linux.ibm.com>
-Leonid I Ananiev <leonid.i.ananiev@intel.com>
-Leon Romanovsky <leon@kernel.org> <leon@leon.nu>
-Leon Romanovsky <leon@kernel.org> <leonro@mellanox.com>
-Leon Romanovsky <leon@kernel.org> <leonro@nvidia.com>
-Linas Vepstas <linas@austin.ibm.com>
-Linus Lüssing <linus.luessing@c0d3.blue> <linus.luessing@ascom.ch>
-Linus Lüssing <linus.luessing@c0d3.blue> <linus.luessing@web.de>
-<linux-hardening@vger.kernel.org> <kernel-hardening@lists.openwall.com>
-Li Yang <leoyang.li@nxp.com> <leoli@freescale.com>
-Li Yang <leoyang.li@nxp.com> <leo@zh-kernel.org>
-Lukasz Luba <lukasz.luba@arm.com> <l.luba@partner.samsung.com>
-Maciej W. Rozycki <macro@mips.com> <macro@imgtec.com>
-Maciej W. Rozycki <macro@orcam.me.uk> <macro@linux-mips.org>
-Manivannan Sadhasivam <mani@kernel.org> <manivannanece23@gmail.com>
-Manivannan Sadhasivam <mani@kernel.org> <manivannan.sadhasivam@linaro.org>
-Marcin Nowakowski <marcin.nowakowski@mips.com> <marcin.nowakowski@imgtec.com>
-Marc Zyngier <maz@kernel.org> <marc.zyngier@arm.com>
-Marek Behún <kabel@kernel.org> <marek.behun@nic.cz>
-Marek Behún <kabel@kernel.org> Marek Behun <marek.behun@nic.cz>
-Mark Brown <broonie@sirena.org.uk>
-Mark Starovoytov <mstarovo@pm.me> <mstarovoitov@marvell.com>
-Mark Yao <markyao0591@gmail.com> <mark.yao@rock-chips.com>
-Martin Kepplinger <martink@posteo.de> <martin.kepplinger@ginzinger.com>
-Martin Kepplinger <martink@posteo.de> <martin.kepplinger@puri.sm>
-Martin Kepplinger <martink@posteo.de> <martin.kepplinger@theobroma-systems.com>
-Mathieu Othacehe <m.othacehe@gmail.com>
-Matthew Wilcox <willy@infradead.org> <matthew.r.wilcox@intel.com>
-Matthew Wilcox <willy@infradead.org> <matthew@wil.cx>
-Matthew Wilcox <willy@infradead.org> <mawilcox@linuxonhyperv.com>
-Matthew Wilcox <willy@infradead.org> <mawilcox@microsoft.com>
-Matthew Wilcox <willy@infradead.org> <willy@debian.org>
-Matthew Wilcox <willy@infradead.org> <willy@linux.intel.com>
-Matthew Wilcox <willy@infradead.org> <willy@parisc-linux.org>
-Matthias Fuchs <socketcan@esd.eu> <matthias.fuchs@esd.eu>
-Matthieu CASTET <castet.matthieu@free.fr>
-Matt Ranostay <matt.ranostay@konsulko.com> <matt@ranostay.consulting>
-Matt Ranostay <mranostay@gmail.com> Matthew Ranostay <mranostay@embeddedalley.com>
-Matt Ranostay <mranostay@gmail.com> <matt.ranostay@intel.com>
-Matt Redfearn <matt.redfearn@mips.com> <matt.redfearn@imgtec.com>
-Mauro Carvalho Chehab <mchehab@kernel.org> <maurochehab@gmail.com>
-Mauro Carvalho Chehab <mchehab@kernel.org> <mchehab@brturbo.com.br>
-Mauro Carvalho Chehab <mchehab@kernel.org> <mchehab@infradead.org>
-Mauro Carvalho Chehab <mchehab@kernel.org> <mchehab@osg.samsung.com>
-Mauro Carvalho Chehab <mchehab@kernel.org> <mchehab@redhat.com>
-Mauro Carvalho Chehab <mchehab@kernel.org> <m.chehab@samsung.com>
-Mauro Carvalho Chehab <mchehab@kernel.org> <mchehab@s-opensource.com>
-Maxime Ripard <mripard@kernel.org> <maxime.ripard@bootlin.com>
-Maxime Ripard <mripard@kernel.org> <maxime.ripard@free-electrons.com>
-Mayuresh Janorkar <mayur@ti.com>
-Michael Buesch <m@bues.ch>
-Michel Dänzer <michel@tungstengraphics.com>
-Michel Lespinasse <michel@lespinasse.org>
-Michel Lespinasse <michel@lespinasse.org> <walken@google.com>
-Michel Lespinasse <michel@lespinasse.org> <walken@zoy.org>
-Miguel Ojeda <ojeda@kernel.org> <miguel.ojeda.sandonis@gmail.com>
-Mike Rapoport <rppt@kernel.org> <mike@compulab.co.il>
-Mike Rapoport <rppt@kernel.org> <mike.rapoport@gmail.com>
-Mike Rapoport <rppt@kernel.org> <rppt@linux.ibm.com>
-Miodrag Dinic <miodrag.dinic@mips.com> <miodrag.dinic@imgtec.com>
-Miquel Raynal <miquel.raynal@bootlin.com> <miquel.raynal@free-electrons.com>
-Mitesh shah <mshah@teja.com>
-Mohit Kumar <mohit.kumar@st.com> <mohit.kumar.dhaka@gmail.com>
-Morten Welinder <terra@gnome.org>
-Morten Welinder <welinder@anemone.rentec.com>
-Morten Welinder <welinder@darter.rentec.com>
-Morten Welinder <welinder@troll.com>
-Mythri P K <mythripk@ti.com>
-Nadia Yvette Chambers <nyc@holomorphy.com> William Lee Irwin III <wli@holomorphy.com>
-Nathan Chancellor <nathan@kernel.org> <natechancellor@gmail.com>
-Nguyen Anh Quynh <aquynh@gmail.com>
-Nicholas Piggin <npiggin@gmail.com> <npiggen@suse.de>
-Nicholas Piggin <npiggin@gmail.com> <npiggin@kernel.dk>
-Nicholas Piggin <npiggin@gmail.com> <npiggin@suse.de>
-Nicholas Piggin <npiggin@gmail.com> <nickpiggin@yahoo.com.au>
-Nicholas Piggin <npiggin@gmail.com> <piggin@cyberone.com.au>
-Nicolas Ferre <nicolas.ferre@microchip.com> <nicolas.ferre@atmel.com>
-Nicolas Pitre <nico@fluxnic.net> <nicolas.pitre@linaro.org>
-Nicolas Pitre <nico@fluxnic.net> <nico@linaro.org>
-Nicolas Saenz Julienne <nsaenz@kernel.org> <nsaenzjulienne@suse.de>
-Nicolas Saenz Julienne <nsaenz@kernel.org> <nsaenzjulienne@suse.com>
-Niklas Söderlund <niklas.soderlund+renesas@ragnatech.se>
-Oleksij Rempel <linux@rempel-privat.de> <bug-track@fisher-privat.net>
-Oleksij Rempel <linux@rempel-privat.de> <external.Oleksij.Rempel@de.bosch.com>
-Oleksij Rempel <linux@rempel-privat.de> <fixed-term.Oleksij.Rempel@de.bosch.com>
-Oleksij Rempel <linux@rempel-privat.de> <o.rempel@pengutronix.de>
-Oleksij Rempel <linux@rempel-privat.de> <ore@pengutronix.de>
-Pali Rohár <pali@kernel.org> <pali.rohar@gmail.com>
-Paolo 'Blaisorblade' Giarrusso <blaisorblade@yahoo.it>
-Patrick Mochel <mochel@digitalimplant.org>
-Paul Burton <paulburton@kernel.org> <paul.burton@imgtec.com>
-Paul Burton <paulburton@kernel.org> <paul.burton@mips.com>
-Paul E. McKenney <paulmck@kernel.org> <paul.mckenney@linaro.org>
-Paul E. McKenney <paulmck@kernel.org> <paulmck@linux.ibm.com>
-Paul E. McKenney <paulmck@kernel.org> <paulmck@linux.vnet.ibm.com>
-Paul E. McKenney <paulmck@kernel.org> <paulmck@us.ibm.com>
-Peter A Jonsson <pj@ludd.ltu.se>
-Peter Oruba <peter.oruba@amd.com>
-Peter Oruba <peter@oruba.de>
-Pratyush Anand <pratyush.anand@gmail.com> <pratyush.anand@st.com>
-Praveen BP <praveenbp@ti.com>
-Punit Agrawal <punitagrawal@gmail.com> <punit.agrawal@arm.com>
-Qais Yousef <qsyousef@gmail.com> <qais.yousef@imgtec.com>
-Quentin Monnet <quentin@isovalent.com> <quentin.monnet@netronome.com>
-Quentin Perret <qperret@qperret.net> <quentin.perret@arm.com>
-Rafael J. Wysocki <rjw@rjwysocki.net> <rjw@sisk.pl>
-Rajeev Nandan <quic_rajeevny@quicinc.com> <rajeevny@codeaurora.org>
-Rajesh Shah <rajesh.shah@intel.com>
-Ralf Baechle <ralf@linux-mips.org>
-Ralf Wildenhues <Ralf.Wildenhues@gmx.de>
-Randy Dunlap <rdunlap@infradead.org> <rdunlap@xenotime.net>
-Rémi Denis-Courmont <rdenis@simphalempin.com>
-Ricardo Ribalda <ribalda@kernel.org> <ricardo@ribalda.com>
-Ricardo Ribalda <ribalda@kernel.org> Ricardo Ribalda Delgado <ribalda@kernel.org>
-Ricardo Ribalda <ribalda@kernel.org> <ricardo.ribalda@gmail.com>
-Roman Gushchin <roman.gushchin@linux.dev> <guro@fb.com>
-Roman Gushchin <roman.gushchin@linux.dev> <guroan@gmail.com>
-Roman Gushchin <roman.gushchin@linux.dev> <klamm@yandex-team.ru>
-Ross Zwisler <zwisler@kernel.org> <ross.zwisler@linux.intel.com>
-Rudolf Marek <R.Marek@sh.cvut.cz>
-Rui Saraiva <rmps@joel.ist.utl.pt>
-Sachin P Sant <ssant@in.ibm.com>
-Sakari Ailus <sakari.ailus@linux.intel.com> <sakari.ailus@iki.fi>
-Sam Ravnborg <sam@mars.ravnborg.org>
-Sankeerth Billakanti <quic_sbillaka@quicinc.com> <sbillaka@codeaurora.org>
-Santosh Shilimkar <santosh.shilimkar@oracle.org>
-Santosh Shilimkar <ssantosh@kernel.org>
-Sarangdhar Joshi <spjoshi@codeaurora.org>
-Sascha Hauer <s.hauer@pengutronix.de>
-S.Çağlar Onur <caglar@pardus.org.tr>
-Sean Christopherson <seanjc@google.com> <sean.j.christopherson@intel.com>
-Sean Nyekjaer <sean@geanix.com> <sean.nyekjaer@prevas.dk>
-Sebastian Reichel <sre@kernel.org> <sebastian.reichel@collabora.co.uk>
-Sebastian Reichel <sre@kernel.org> <sre@debian.org>
-Sedat Dilek <sedat.dilek@gmail.com> <sedat.dilek@credativ.de>
-Shiraz Hashim <shiraz.linux.kernel@gmail.com> <shiraz.hashim@st.com>
-Shuah Khan <shuah@kernel.org> <shuahkhan@gmail.com>
-Shuah Khan <shuah@kernel.org> <shuah.khan@hp.com>
-Shuah Khan <shuah@kernel.org> <shuahkh@osg.samsung.com>
-Shuah Khan <shuah@kernel.org> <shuah.kh@samsung.com>
-Simon Arlott <simon@octiron.net> <simon@fire.lp0.eu>
-Simon Kelley <simon@thekelleys.org.uk>
-Stéphane Witzmann <stephane.witzmann@ubpmes.univ-bpclermont.fr>
-Stephen Hemminger <shemminger@osdl.org>
-Steve Wise <larrystevenwise@gmail.com> <swise@chelsio.com>
-Steve Wise <larrystevenwise@gmail.com> <swise@opengridcomputing.com>
-Subash Abhinov Kasiviswanathan <subashab@codeaurora.org>
-Subhash Jadavani <subhashj@codeaurora.org>
-Sudeep Holla <sudeep.holla@arm.com> Sudeep KarkadaNagesha <sudeep.karkadanagesha@arm.com>
-Sumit Semwal <sumit.semwal@ti.com>
-Takashi YOSHII <takashi.yoshii.zj@renesas.com>
-Tejun Heo <htejun@gmail.com>
-Thomas Graf <tgraf@suug.ch>
-Thomas Körper <socketcan@esd.eu> <thomas.koerper@esd.eu>
-Thomas Pedersen <twp@codeaurora.org>
-Tiezhu Yang <yangtiezhu@loongson.cn> <kernelpatch@126.com>
-Todor Tomov <todor.too@gmail.com> <todor.tomov@linaro.org>
-Tony Luck <tony.luck@intel.com>
-TripleX Chung <xxx.phy@gmail.com> <triplex@zh-kernel.org>
-TripleX Chung <xxx.phy@gmail.com> <zhongyu@18mail.cn>
-Tsuneo Yoshioka <Tsuneo.Yoshioka@f-secure.com>
-Tycho Andersen <tycho@tycho.pizza> <tycho@tycho.ws>
-Uwe Kleine-König <ukleinek@informatik.uni-freiburg.de>
-Uwe Kleine-König <u.kleine-koenig@pengutronix.de>
-Uwe Kleine-König <ukleinek@strlen.de>
-Uwe Kleine-König <ukl@pengutronix.de>
-Uwe Kleine-König <Uwe.Kleine-Koenig@digi.com>
-Valdis Kletnieks <Valdis.Kletnieks@vt.edu>
-Vasily Averin <vasily.averin@linux.dev> <vvs@virtuozzo.com>
-Vasily Averin <vasily.averin@linux.dev> <vvs@openvz.org>
-Vasily Averin <vasily.averin@linux.dev> <vvs@parallels.com>
-Vasily Averin <vasily.averin@linux.dev> <vvs@sw.ru>
-Vinod Koul <vkoul@kernel.org> <vinod.koul@intel.com>
-Vinod Koul <vkoul@kernel.org> <vinod.koul@linux.intel.com>
-Vinod Koul <vkoul@kernel.org> <vkoul@infradead.org>
-Viresh Kumar <vireshk@kernel.org> <viresh.kumar2@arm.com>
-Viresh Kumar <vireshk@kernel.org> <viresh.kumar@st.com>
-Viresh Kumar <vireshk@kernel.org> <viresh.linux@gmail.com>
-Viresh Kumar <viresh.kumar@linaro.org> <viresh.kumar@linaro.org>
-Viresh Kumar <viresh.kumar@linaro.org> <viresh.kumar@linaro.com>
-Vivien Didelot <vivien.didelot@gmail.com> <vivien.didelot@savoirfairelinux.com>
-Vlad Dogaru <ddvlad@gmail.com> <vlad.dogaru@intel.com>
-Vladimir Davydov <vdavydov.dev@gmail.com> <vdavydov@parallels.com>
-Vladimir Davydov <vdavydov.dev@gmail.com> <vdavydov@virtuozzo.com>
-WeiXiong Liao <gmpy.liaowx@gmail.com> <liaoweixiong@allwinnertech.com>
-Will Deacon <will@kernel.org> <will.deacon@arm.com>
-Wolfram Sang <wsa@kernel.org> <w.sang@pengutronix.de>
-Wolfram Sang <wsa@kernel.org> <wsa@the-dreams.de>
-Yakir Yang <kuankuan.y@gmail.com> <ykk@rock-chips.com>
-Yusuke Goda <goda.yusuke@renesas.com>
-Zhu Yanjun <zyjzyj2000@gmail.com> <yanjunz@nvidia.com>
+
+map:
+  # main:
+  #  - name: Linux
+  #    e-mail: example.com
+  maintainer:
+    - name: Sakari Ailus
+      e-mail:
+        0: sakari.ailus@linux.intel.com
+        1: sakari.ailus@iki.fi
+  support:
+    - name: Aaron Durbin
+      e-mail: adurbin@google.com
+    - name: Abhinav Kumar
+      e-mail:
+        0: quic_abhinavk@quicinc.com
+        1: abhinavk@codeaurora.org
+    - name: Adam Oldham
+      e-mail: oldhamca@gmail.com
+    - name: Adam Radford
+      e-mail: aradford@gmail.com
+    - name: Adriana Reus
+      e-mail:
+        0: adi.reus@gmail.com
+        1: adriana.reus@intel.com
+    - name: Adrian Bunk
+      e-mail: bunk@stusta.de
+    - name: Akhil P Oommen
+      e-mail:
+        0: quic_akhilpo@quicinc.com
+        1: akhilpo@codeaurora.org
+    - name: Alan Cox
+      e-mail:
+        0: alan@lxorguk.ukuu.org.uk
+        1: root@hraefn.swansea.linux.org.uk
+    - name: Aleksandar Markovic
+      e-mail:
+        0: aleksandar.markovic@mips.com
+        1: aleksandar.markovic@imgtec.com
+    - name: Aleksey Gorelov
+      e-mail: aleksey_gorelov@phoenix.com
+    - name: Alexander Lobakin
+      e-mail:
+        0: alobakin@pm.me
+        1: alobakin@dlink.ru
+        2: alobakin@pm.me
+        3: alobakin@marvell.com
+        4: bloodyreaper@yandex.ru
+    - name: Alexandre Belloni
+      e-mail:
+        0: alexandre.belloni@bootlin.com
+        1: alexandre.belloni@free-electrons.com
+    - name: Alexei Starovoitov
+      e-mail:
+        0: ast@kernel.org
+        1: alexei.starovoitov@gmail.com
+        2: ast@fb.com
+        3: ast@plumgrid.com
+    - name: Alex Shi
+      e-mail:
+        0: alexs@kernel.org
+        1: alex.shi@intel.com
+        2: alex.shi@linaro.org
+        3: alex.shi@linux.alibaba.com
+    - name: Al Viro
+      e-mail:
+        0: viro@ftp.linux.org.uk
+        1: viro@zenIV.linux.org.uk
+    - name: Andi Kleen
+      e-mail:
+        0: ak@linux.intel.com
+        1: ak@suse.de
+    - name: Andi Shyti
+      e-mail:
+        0: andi@etezian.org
+        1: andi.shyti@samsung.com
+    - name: Andreas Herrmann
+      e-mail: aherrman@de.ibm.com
+    - name: Andrej Shadura
+      e-mail:
+        0: andrew.shadura@collabora.co.uk
+        1: andrew@shadura.me
+        2: andrew@beldisplaytech.com
+    - name: Andrew Morton
+      e-mail: akpm@linux-foundation.org
+    - name: Andrew Murray
+      e-mail:
+        0: amurray@thegoodpenguin.co.uk
+        1: amurray@embedded-bits.co.uk
+        2: andrew.murray@arm.com
+    - name: Andrew Vasquez
+      e-mail: andrew.vasquez@qlogic.com
+    - name: Andrey Konovalov
+      e-mail:
+        0: andreyknvl@gmail.com
+        1: andreyknvl@google.com
+    - name: Andrey Ryabinin
+      e-mail:
+        0: ryabinin.a.a@gmail.com
+        1: a.ryabinin@samsung.com
+        2: ryabinin.a.a@gmail.com
+        3: aryabinin@virtuozzo.com
+    - name: Andrzej Hajda
+      e-mail:
+        0: andrzej.hajda@intel.com
+        1: a.hajda@samsung.com
+    - name: Andy Adamson
+      e-mail: andros@citi.umich.edu
+    - name: Antoine Tenart
+      e-mail:
+        0: atenart@kernel.org
+        1: antoine.tenart@bootlin.com
+        2: antoine.tenart@free-electrons.com
+    - name: Antonio Ospite
+      e-mail:
+        0: ao2@ao2.it
+        1: ao2@amarulasolutions.com
+    - name: Anup Patel
+      e-mail:
+        0: anup@brainfault.org
+        1: anup.patel@wdc.com
+    - name: Archit Taneja
+      e-mail: archit@ti.com
+    - name: Ard Biesheuvel
+      e-mail:
+        0: ardb@kernel.org
+        1: ard.biesheuvel@linaro.org
+    - name: Arnaud Patard
+      e-mail: arnaud.patard@rtp-net.org
+    - name: Arnd Bergmann
+      e-mail: arnd@arndb.de
+    - name: Atish Patra
+      e-mail:
+        0: atishp@atishpatra.org
+        1: atish.patra@wdc.com
+    - name: Axel Dyks
+      e-mail: xl@xlsigned.net
+    - name: Axel Lin
+      e-mail: axel.lin@gmail.com
+    - name: Bart Van Assche
+      e-mail:
+        0: bvanassche@acm.org
+        1: bart.vanassche@sandisk.com
+        2: bart.vanassche@wdc.com
+    - name: Ben Gardner
+      e-mail: bgardner@wabtec.com
+    - name: Ben M Cahill
+      e-mail: ben.m.cahill@intel.com
+    - name: Björn Steinbrink
+      e-mail: B.Steinbrink@gmx.de
+    - name: Björn Töpel
+      e-mail:
+        0: bjorn@kernel.org
+        1: bjorn.topel@gmail.com
+        2: bjorn.topel@intel.com
+    - name: Boris Brezillon
+      e-mail:
+        0: bbrezillon@kernel.org
+        1: b.brezillon.dev@gmail.com
+        2: b.brezillon@overkiz.com
+        3: boris.brezillon@bootlin.com
+        4: boris.brezillon@free-electrons.com
+    - name: Brian Avery
+      e-mail: b.avery@hp.com
+    - name: Brian King
+      e-mail: brking@us.ibm.com
+    - name: Brian Silverman
+      e-mail:
+        0: bsilver16384@gmail.com
+        1: brian.silverman@bluerivertech.com
+    - name: Cai Huoqing
+      e-mail:
+        0: cai.huoqing@linux.dev
+        1: caihuoqing@baidu.com
+    - name: Changbin Du
+      e-mail:
+        0: changbin.du@intel.com
+        1: changbin.du@gmail.com
+    - name: Chao Yu
+      e-mail:
+        0: chao@kernel.org
+        1: chao2.yu@samsung.com
+        2: yuchao0@huawei.com
+    - name: Chris Chiu
+      e-mail:
+        0: chris.chiu@canonical.com
+        1: chiu@endlessm.com
+        2: chiu@endlessos.org
+    - name: Christian Borntraeger
+      e-mail:
+        0: borntraeger@linux.ibm.com
+        1: borntraeger@de.ibm.com
+        2: cborntra@de.ibm.com
+        3: borntrae@de.ibm.com
+    - name: Christian Brauner
+      e-mail:
+        0: brauner@kernel.org
+        1: christian@brauner.io
+        2: christian.brauner@canonical.com
+        3: christian.brauner@ubuntu.com
+    - name: Christophe Ricard
+      e-mail: christophe.ricard@gmail.com
+    - name: Christoph Hellwig
+      e-mail: hch@lst.de
+    - name: Colin Ian King
+      e-mail:
+        0: colin.king@intel.com
+        1: colin.king@canonical.com
+        2: colin.i.king@gmail.com
+    - name: Corey Minyard
+      e-mail: minyard@acm.org
+    - name: Damian Hobson-Garcia
+      e-mail: dhobsong@igel.co.jp
+    - name: Daniel Borkmann
+      e-mail:
+        0: daniel@iogearbox.net
+        1: danborkmann@googlemail.com
+        2: danborkmann@iogearbox.net
+        3: daniel.borkmann@tik.ee.ethz.ch
+        4: dborkmann@redhat.com
+        5: dborkman@redhat.com
+        6: dxchgb@gmail.com
+    - name: David Brownell
+      e-mail: david-b@pacbell.net
+    - name: David Woodhouse
+      e-mail: dwmw2@shinybook.infradead.org
+    - name: Dengcheng Zhu
+      e-mail:
+        0: dzhu@wavecomp.com
+        1: dczhu@mips.com
+        2: dengcheng.zhu@gmail.com
+        3: dengcheng.zhu@imgtec.com
+        4: dengcheng.zhu@mips.com
+    - name:
+      e-mail:
+        0: dev.kurt@vandijck-laurijssen.be
+        1: kurt.van.dijck@eia.be
+    - name: Dmitry Baryshkov
+      e-mail:
+        0: dbaryshkov@gmail.com
+        1: dmitry_baryshkov@mentor.com
+        2: dmitry_eremin@mentor.com
+    - name: Dmitry Safonov
+      e-mail:
+        0: 0x7f454c46@gmail.com
+        1: dima@arista.com
+        2: d.safonov@partner.samsung.com
+        3: dsafonov@virtuozzo.com
+    - name: Domen Puncer
+      e-mail: domen@coderock.org
+    - name: Douglas Gilbert
+      e-mail: dougg@torque.net
+    - name: Ed L. Cashin
+      e-mail: ecashin@coraid.com
+    - name: Erik Kaneda
+      e-mail:
+        0: erik.kaneda@intel.com
+        1: erik.schmauss@intel.com
+    - name: Evgeniy Polyakov
+      e-mail: johnpol@2ka.mipt.ru
+    - name: Ezequiel Garcia
+      e-mail:
+        0: ezequiel@vanguardiasur.com.ar
+        1: ezequiel@collabora.com
+    - name: Felipe W Damasio
+      e-mail: felipewd@terra.com.br
+    - name: Felix Kuhling
+      e-mail: fxkuehl@gmx.de
+    - name: Felix Moeller
+      e-mail: felix@derklecks.de
+    - name: Filipe Lautert
+      e-mail: filipe@icewall.org
+    - name: Finn Thain
+      e-mail:
+        0: fthain@linux-m68k.org
+        1: fthain@telegraphics.com.au
+    - name: Franck Bui-Huu
+      e-mail: vagabon.xyz@gmail.com
+    - name: Frank Rowand
+      e-mail:
+        0: frowand.list@gmail.com
+        1: frank.rowand@am.sony.com
+        2: frank.rowand@sonymobile.com
+        3: frowand@mvista.com
+    - name: Frank Zago
+      e-mail: fzago@systemfabricworks.com
+    - name: Gao Xiang
+      e-mail:
+        0: xiang@kernel.org
+        1: gaoxiang25@huawei.com
+        2: hsiangkao@aol.com
+    - name: Gerald Schaefer
+      e-mail:
+        0: gerald.schaefer@linux.ibm.com
+        1: geraldsc@de.ibm.com
+        2: gerald.schaefer@de.ibm.com
+        3: geraldsc@linux.vnet.ibm.com
+    - name: Greg Kroah-Hartman
+      e-mail:
+        0: greg@echidna.(none)
+        1: gregkh@suse.de
+        2: greg@kroah.com
+    - name Greg Kurz
+      e-mail:
+        0: groug@kaod.org
+        1: gkurz@linux.vnet.ibm.com
+    - name: Gregory CLEMENT
+      e-mail:
+        0: gregory.clement@bootlin.com
+        1: gregory.clement@free-electrons.com
+    - name: Guo Ren
+      e-mail:
+        0: guoren@kernel.org
+        1: guoren@linux.alibaba.com
+        2: ren_guo@c-sky.com
+    - name: Gustavo Padovan
+      e-mail:
+        0: gustavo@las.ic.unicamp.br
+        1: padovan@profusion.mobi
+    - name: Hanjun Guo
+      e-mail:
+        0: guohanjun@huawei.com
+        1: hanjun.guo@linaro.org
+    - name: Heiko Carstens
+      e-mail:
+        0: hca@linux.ibm.com
+        1: h.carstens@de.ibm.com
+        2: heiko.carstens@de.ibm.com
+    - name: Henk Vergonet
+      e-mail: Henk.Vergonet@gmail.com
+    - name: Henrik Kretzschmar
+      e-mail: henne@nachtwindheim.de
+    - name: Henrik Rydberg
+      e-mail: rydberg@bitmath.org
+    - name: Herbert Xu
+      e-mail: herbert@gondor.apana.org.au
+    - name: Huacai Chen
+      e-mail:
+        0: chenhuacai@kernel.org
+        1: chenhc@lemote.com
+        2: chenhuacai@loongson.cn
+    - name: Jacob Shin
+      e-mail: Jacob.Shin@amd.com
+    - name: Jaegeuk Kim
+      e-mail:
+        0: jaegeuk@kernel.org
+        1: jaegeuk@google.com
+        2: jaegeuk.kim@samsung.com
+        3: jaegeuk@motorola.com
+    - name: Jakub Kicinski
+      e-mail:
+        0: kuba@kernel.org
+        1: jakub.kicinski@netronome.com
+    - name: James Bottomley
+      e-mail:
+        0: jejb@mulgrave.(none)
+        1: jejb@titanic.il.steeleye.com
+    - name: James E Wilson
+      e-mail: wilson@specifix.com
+    - name: James Hogan
+      e-mail:
+        0: jhogan@kernel.org
+        1: james@albanarts.com
+        2: james.hogan@imgtec.com
+    - name: James Ketrenos
+      e-mail: jketreno@io.(none)
+    - name: Jan Glauber
+      e-mail:
+        0: jan.glauber@gmail.com
+        1: jang@de.ibm.com
+        2: jang@linux.vnet.ibm.com
+        3: jglauber@cavium.com
+    - name: Jarkko Sakkinen
+      e-mail:
+        0: jarkko@kernel.org
+        1: jarkko.sakkinen@linux.intel.com
+    - name: Jason Gunthorpe
+      e-mail:
+        0: jgg@ziepe.ca
+        1: jgg@mellanox.com
+        2: jgg@nvidia.com
+        3: jgunthorpe@obsidianresearch.com
+    - name: Javi Merino
+      e-mail:
+        0: javi.merino@kernel.org
+        1: javi.merino@arm.com
+        2: javier@osg.samsung.com
+        3: javier.martinez@collabora.co.uk
+    - name: Jayachandran C
+      e-mail:
+        0: c.jayachandran@gmail.com
+        1: jayachandranc@netlogicmicro.com
+        2: jchandra@broadcom.com
+        3: jchandra@digeo.com
+        4: jnair@caviumnetworks.com
+    - name:
+      e-mail:
+        0: jean-philippe@linaro.org
+        1: jean-philippe.brucker@arm.com
+    - name: Jean Tourrilhes
+      e-mail: jt@hpl.hp.com
+    - name: Jeff Garzik
+      e-mail: jgarzik@pretzel.yyz.us
+    - name: Jeff Layton
+      e-mail:
+        0: jlayton@kernel.org
+        1: jlayton@poochiereds.net
+        2: jlayton@primarydata.com
+        3: jlayton@redhat.com
+    - name: Jens Axboe
+      e-mail: axboe@suse.de
+    - name: Jens Osterkamp
+      e-mail: Jens.Osterkamp@de.ibm.com
+    - name: Jernej Skrabec
+      e-mail:
+        0: jernej.skrabec@gmail.com
+        1: jernej.skrabec@siol.net
+    - name: Jessica Zhang
+      e-mail:
+        0: quic_jesszhan@quicinc.com
+        1: jesszhan@codeaurora.org
+    - name: Jiri Slaby
+      e-mail:
+        0: jirislaby@kernel.org
+        1: jirislaby@gmail.com
+        2: jslaby@novell.com
+        3: jslaby@suse.com
+        4: jslaby@suse.cz
+        5: xslaby@fi.muni.cz
+    - name: Jisheng Zhang
+      e-mail:
+        0: jszhang@kernel.org
+        1: jszhang@marvell.com
+        2: Jisheng.Zhang@synaptics.com
+    - name: Johan Hovold
+      e-mail:
+        0: johan@kernel.org
+        1: jhovold@gmail.com
+        2: johan@hovoldconsulting.com
+    - name: John Paul Adrian Glaubitz
+      e-mail: glaubitz@physik.fu-berlin.de
+    - name: John Stultz
+      e-mail: johnstul@us.ibm.com
+    - name: Jordan Crouse
+      e-mail:
+        0: jordan@cosmicpenguin.net
+        1: jcrouse@codeaurora.org
+    - name:
+      e-mail:
+        0: josh@joshtriplett.org
+        1: josh@freedesktop.org
+        3: josh@kernel.org
+        4: josht@linux.vnet.ibm.com
+        5: josht@us.ibm.com
+        6: josht@vnet.ibm.com
+    - name: Juha Yrjola
+      e-mail:
+        0: at solidboot.com
+        1: juha.yrjola@nokia.com
+        2: juha.yrjola@solidboot.com
+    - name: Julien Thierry
+      e-mail:
+        0: julien.thierry.kdev@gmail.com
+        1: julien.thierry@arm.com
+    - name: Kalyan Thota
+      e-mail:
+        0: quic_kalyant@quicinc.com
+        1: kalyan_t@codeaurora.org
+    - name: Kay Sievers
+      e-mail: kay.sievers@vrfy.org
+    - name: Kees Cook
+      e-mail:
+        0: keescook@chromium.org
+        1: kees.cook@canonical.com
+        2: keescook@google.com
+        3: kees@outflux.net
+        4: kees@ubuntu.com
+    - name: Keith Busch
+      e-mail:
+        0: kbusch@kernel.org
+        1: keith.busch@intel.com
+        3: keith.busch@linux.intel.com
+    - name: Kenneth W Chen
+      e-mail: kenneth.w.chen@intel.com
+    - name: Kirill Tkhai
+      e-mail:
+        0: kirill.tkhai@openvz.org
+        1: ktkhai@virtuozzo.com
+    - name: Konstantin Khlebnikov
+      e-mail:
+        0: koct9i@gmail.com
+        1: khlebnikov@yandex-team.ru
+        2: k.khlebnikov@samsung.com
+    - name: Koushik
+      e-mail: raghavendra.koushik@neterion.com
+    - name: Krishna Manikandan
+      e-mail:
+        0: quic_mkrishn@quicinc.com
+        1: mkrishn@codeaurora.org
+    - name: Krzysztof Kozlowski
+      e-mail:
+        0: krzk@kernel.org
+        1: k.kozlowski.k@gmail.com
+        2: k.kozlowski@samsung.com
+        3: krzysztof.kozlowski@canonical.com
+    - name: Kuninori Morimoto
+      e-mail: kuninori.morimoto.gx@renesas.com
+    - name: Kuogee Hsieh
+      e-mail:
+        0: quic_khsieh@quicinc.com
+        1: khsieh@codeaurora.org
+    - name: Leonardo Bras
+      e-mail:
+        0: leobras.c@gmail.com
+        1: leonardo@linux.ibm.com
+    - name: Leonid I Ananiev
+      e-mail: leonid.i.ananiev@intel.com
+    - name: Leon Romanovsky
+      e-mail:
+        0: leon@kernel.org
+        1: leon@leon.nu
+        2: leonro@mellanox.com
+        3: leonro@nvidia.com
+    - name: Linas Vepstas
+      e-mail: linas@austin.ibm.com
+    - name: Linus Lüssing
+      e-mail:
+        0: linus.luessing@c0d3.blue
+        1: linus.luessing@ascom.ch
+        2: linus.luessing@web.de
+    - name:
+      e-mail:
+        0: linux-hardening@vger.kernel.org
+        1: kernel-hardening@lists.openwall.com
+    - name: Li Yang
+      e-mail:
+        0: leoyang.li@nxp.com
+        1: leoli@freescale.com
+        2: leo@zh-kernel.org
+    - name: Lukasz Luba
+      e-mail:
+        0: lukasz.luba@arm.com
+        1: l.luba@partner.samsung.com
+    - name: Maciej W. Rozycki
+      e-mail:
+        0: macro@mips.com
+        1: macro@imgtec.com
+        2: macro@orcam.me.uk
+        3: macro@linux-mips.org
+    - name: Manivannan Sadhasivam
+      e-mail:
+        0: mani@kernel.org
+        1: manivannanece23@gmail.com
+        2: manivannan.sadhasivam@linaro.org
+    - name: Marcin Nowakowski
+      e-mail:
+        0: marcin.nowakowski@mips.com
+        1: marcin.nowakowski@imgtec.com
+    - name: Marc Zyngier
+      e-mail:
+        0: maz@kernel.org
+        1: marc.zyngier@arm.com
+    - name: Marek Behún
+      e-mail:
+        0: kabel@kernel.org
+        1: marek.behun@nic.cz
+    - name: Mark Brown
+      e-mail: broonie@sirena.org.uk
+    - name: Mark Starovoytov
+      e-mail:
+        0: mstarovo@pm.me
+        1: mstarovoitov@marvell.com
+    - name: Mark Yao
+      e-mail:
+        0: markyao0591@gmail.com
+        1: mark.yao@rock-chips.com
+    - name: Martin Kepplinger
+      e-mail:
+        0: martink@posteo.de
+        1: martin.kepplinger@ginzinger.com
+        2: martin.kepplinger@puri.sm
+        3: martin.kepplinger@theobroma-systems.com
+    - name: Mathieu Othacehe
+      e-mail: m.othacehe@gmail.com
+    - name: Matthew Wilcox
+      e-mail:
+        0: willy@infradead.org
+        1: matthew.r.wilcox@intel.com
+        2: matthew@wil.cx
+        3: mawilcox@linuxonhyperv.com
+        4: mawilcox@microsoft.com
+        5: willy@debian.org
+        6: willy@linux.intel.com
+        7: willy@parisc-linux.org
+    - name: Matthias Fuchs
+      e-mail:
+        0: socketcan@esd.eu
+        1: matthias.fuchs@esd.eu
+    - name: Matthieu CASTET
+      e-mail: castet.matthieu@free.fr
+    - name: Matt Ranostay
+      e-mail:
+        0: matt.ranostay@konsulko.com
+        1: matt@ranostay.consulting
+        2: mranostay@gmail.com
+        3: mranostay@embeddedalley.com
+        4: matt.ranostay@intel.com
+    - name: Matt Redfearn
+      e-mail:
+        0: matt.redfearn@mips.com
+        1: matt.redfearn@imgtec.com
+    - name: Mauro Carvalho Chehab
+      e-mail:
+        0: mchehab@kernel.org
+        1: maurochehab@gmail.com
+        2: mchehab@brturbo.com.br
+        3: mchehab@infradead.org
+        4: mchehab@osg.samsung.com
+        5: mchehab@redhat.com
+        6: m.chehab@samsung.com
+        7: mchehab@s-opensource.com
+    - name: Maxime Ripard
+      e-mail:
+        0: mripard@kernel.org
+        1: maxime.ripard@bootlin.com
+        2: maxime.ripard@free-electrons.com
+    - name: Mayuresh Janorkar
+      e-mail: mayur@ti.com
+    - name: Michael Buesch
+      e-mail: m@bues.ch
+    - name: Michel Dänzer
+      e-mail: michel@tungstengraphics.com
+    - name: Michel Lespinasse
+      e-mail: michel@lespinasse.org
+    - name: Michel Lespinasse
+      e-mail:
+        0: michel@lespinasse.org
+        1: walken@google.com
+        3: walken@zoy.org
+    - name: Miguel Ojeda
+      e-mail:
+        0: ojeda@kernel.org
+        1: miguel.ojeda.sandonis@gmail.com
+    - name: Mike Rapoport
+      e-mail:
+        0: rppt@kernel.org
+        1: mike@compulab.co.il
+        2: mike.rapoport@gmail.com
+        3: rppt@linux.ibm.com
+    - name: Miodrag Dinic
+      e-mail:
+        0: miodrag.dinic@mips.com
+        1: miodrag.dinic@imgtec.com
+    - name: Miquel Raynal
+      e-mail:
+        0: miquel.raynal@bootlin.com
+        1: miquel.raynal@free-electrons.com
+    - name: Mitesh shah
+      e-mail: mshah@teja.com
+    - name: Mohit Kumar
+      e-mail:
+        0:mohit.kumar@st.com
+        1: mohit.kumar.dhaka@gmail.com
+    - name: Morten Welinder
+      e-mail:
+        0: terra@gnome.org
+        1: welinder@anemone.rentec.com
+        2: welinder@darter.rentec.com
+        3: welinder@troll.com
+    - name: Mythri P K
+      e-mail: mythripk@ti.com
+    - name: Nadia Yvette Chambers
+      e-mail: nyc@holomorphy.com
+    - name: William Lee Irwin III
+      e-mail: wli@holomorphy.com
+    - name: Nathan Chancellor
+      e-mail:
+        0: nathan@kernel.org
+        1: natechancellor@gmail.com
+    - name: Nguyen Anh Quynh
+      e-mail: aquynh@gmail.com
+    - name: Nicholas Piggin
+      e-mail:
+        0: npiggin@gmail.com
+        1: npiggen@suse.de
+        2: npiggin@kernel.dk
+        3: npiggin@suse.de
+        4: nickpiggin@yahoo.com.au
+        5: piggin@cyberone.com.au
+    - name: Nicolas Ferre
+      e-mail:
+        0: nicolas.ferre@microchip.com
+        1: nicolas.ferre@atmel.com
+    - name: Nicolas Pitre
+      e-mail:
+        0: nico@fluxnic.net
+        1: nicolas.pitre@linaro.org
+        2: nico@linaro.org
+    - name: Nicolas Saenz Julienne
+      e-mail:
+        0: nsaenz@kernel.org
+        1: nsaenzjulienne@suse.de
+        2: nsaenzjulienne@suse.com
+    - name: Niklas Söderlund
+      e-mail: niklas.soderlund+renesas@ragnatech.se
+    - name: Oleksij Rempel
+      e-mail:
+        0: linux@rempel-privat.de
+        1: bug-track@fisher-privat.net
+        2: external.Oleksij.Rempel@de.bosch.com
+        3: fixed-term.Oleksij.Rempel@de.bosch.com
+        4: o.rempel@pengutronix.de
+        5: ore@pengutronix.de
+    - name: Pali Rohár
+      e-mail:
+        0: pali@kernel.org
+        1: pali.rohar@gmail.com
+    - name: Paolo 'Blaisorblade' Giarrusso
+      e-mail: blaisorblade@yahoo.it
+    - name: Patrick Mochel
+      e-mail: mochel@digitalimplant.org
+    - name: Paul Burton
+      e-mail:
+        0: paulburton@kernel.org
+        1: paul.burton@imgtec.com
+        2: paul.burton@mips.com
+    - name: Paul E. McKenney
+      e-mail:
+        0: paulmck@kernel.org
+        1: paul.mckenney@linaro.org
+        2: paulmck@linux.ibm.com
+        3: paulmck@linux.vnet.ibm.com
+        4: paulmck@us.ibm.com
+    - name: Peter A Jonsson
+      e-mail: pj@ludd.ltu.se
+    - name: Peter Oruba
+      e-mail: peter.oruba@amd.com
+    - name: Peter Oruba
+      e-mail: peter@oruba.de
+    - name: Pratyush Anand
+      e-mail:
+        0: pratyush.anand@gmail.com
+        1: pratyush.anand@st.com
+    - name: Praveen BP
+      e-mail: praveenbp@ti.com
+    - name: Punit Agrawal
+      e-mail:
+        0: punitagrawal@gmail.com
+        1: punit.agrawal@arm.com
+    - name: Qais Yousef
+      e-mail:
+        0: qsyousef@gmail.com
+        1: qais.yousef@imgtec.com
+    - name: Quentin Monnet
+      e-mail:
+        0: quentin@isovalent.com
+        1: quentin.monnet@netronome.com
+    - name: Quentin Perret
+      e-mail:
+        0: qperret@qperret.net
+        1: quentin.perret@arm.com
+    - name: Rafael J. Wysocki
+      e-mail:
+        0: rjw@rjwysocki.net
+        1: rjw@sisk.pl
+    - name: Rajeev Nandan
+      e-mail:
+        0: quic_rajeevny@quicinc.com
+        1: rajeevny@codeaurora.org
+    - name: Rajesh Shah
+      e-mail: rajesh.shah@intel.com
+    - name: Ralf Baechle
+      e-mail: ralf@linux-mips.org
+    - name: Ralf Wildenhues
+      e-mail: Ralf.Wildenhues@gmx.de
+    - name: Randy Dunlap
+      e-mail:
+        0: rdunlap@infradead.org
+        1: rdunlap@xenotime.net
+    - name: Rémi Denis-Courmont
+      e-mail: rdenis@simphalempin.com
+    - name: Ricardo Ribalda Delgado
+      e-mail:
+        0: ribalda@kernel.org
+        1: ricardo@ribalda.com
+        2: ricardo.ribalda@gmail.com
+    - name: Roman Gushchin
+      e-mail:
+        0: roman.gushchin@linux.dev
+        1: guro@fb.com
+        2: guroan@gmail.com
+        3: klamm@yandex-team.ru
+    - name: Ross Zwisler
+      e-mail:
+        0: zwisler@kernel.org
+        1: ross.zwisler@linux.intel.com
+    - name: Rudolf Marek
+      e-mail: R.Marek@sh.cvut.cz
+    - name: Rui Saraiva
+      e-mail: rmps@joel.ist.utl.pt
+    - name: Sachin P Sant
+      e-mail: ssant@in.ibm.com
+    - name: Sam Ravnborg
+      e-mail: sam@mars.ravnborg.org
+    - name: Sankeerth Billakanti
+      e-mail:
+        0: quic_sbillaka@quicinc.com
+        1: sbillaka@codeaurora.org
+    - name: Santosh Shilimkar
+      e-mail:
+        0: santosh.shilimkar@oracle.org
+        1: ssantosh@kernel.org
+    - name: Sarangdhar Joshi
+      e-mail: spjoshi@codeaurora.org
+    - name: Sascha Hauer
+      e-mail: s.hauer@pengutronix.de
+    - name: S.Çağlar Onur
+      e-mail: caglar@pardus.org.tr
+    - name: Sean Christopherson
+      e-mail:
+        0: seanjc@google.com
+        1: sean.j.christopherson@intel.com
+    - name: Sean Nyekjaer
+      e-mail:
+        0: sean@geanix.com
+        1: sean.nyekjaer@prevas.dk
+    - name: Sebastian Reichel
+      e-mail:
+        0: sre@kernel.org
+        1: sebastian.reichel@collabora.co.uk
+        2: sre@debian.org
+    - name: Sedat Dilek
+      e-mail:
+        0: sedat.dilek@gmail.com
+        1: sedat.dilek@credativ.de
+    - name: Shiraz Hashim
+      e-mail:
+        0: shiraz.linux.kernel@gmail.com
+        1: shiraz.hashim@st.com
+    - name: Shuah Khan
+      e-mail:
+        0: shuah@kernel.org
+        1: shuahkhan@gmail.com
+        2: shuah.khan@hp.com
+        3: shuahkh@osg.samsung.com
+        4: shuah.kh@samsung.com
+    - name: Simon Arlott
+      e-mail:
+        0: simon@octiron.net
+        1: simon@fire.lp0.eu
+    - name: Simon Kelley
+      e-mail: simon@thekelleys.org.uk
+    - name: Stéphane Witzmann
+      e-mail: stephane.witzmann@ubpmes.univ-bpclermont.fr
+    - name: Stephen Hemminger
+      e-mail: shemminger@osdl.org
+    - name: Steve Wise
+      e-mail:
+        0: larrystevenwise@gmail.com
+        1: swise@chelsio.com
+        2: swise@opengridcomputing.com
+    - name: Subash Abhinov Kasiviswanathan
+      e-mail: subashab@codeaurora.org
+    - name: Subhash Jadavani
+      e-mail: subhashj@codeaurora.org
+    - name: Sudeep Holla
+      e-mail: sudeep.holla@arm.com
+    - name: Sudeep KarkadaNagesha
+      e-mail: sudeep.karkadanagesha@arm.com
+    - name: Sumit Semwal
+      e-mail: sumit.semwal@ti.com
+    - name: Takashi YOSHII
+      e-mail: takashi.yoshii.zj@renesas.com
+    - name: Tejun Heo
+      e-mail: htejun@gmail.com
+    - name: Thomas Graf
+      e-mail: tgraf@suug.ch
+    - name: Thomas Körper
+      e-mail:
+        0: socketcan@esd.eu
+        1: thomas.koerper@esd.eu
+    - name: Thomas Pedersen
+      e-mail: twp@codeaurora.org
+    - name: Tiezhu Yang
+      e-mail:
+        0: yangtiezhu@loongson.cn
+        1: kernelpatch@126.com
+    - name: Todor Tomov
+      e-mail:
+        0: todor.too@gmail.com
+        1: todor.tomov@linaro.org
+    - name: Tony Luck
+      e-mail: tony.luck@intel.com
+    - name: TripleX Chung
+      e-mail:
+        0: xxx.phy@gmail.com
+        1: triplex@zh-kernel.org
+        2: zhongyu@18mail.cn
+    - name: Tsuneo Yoshioka
+      e-mail: Tsuneo.Yoshioka@f-secure.com
+    - name: Tycho Andersen
+      e-mail:
+        0: tycho@tycho.pizza
+        1: tycho@tycho.ws
+    - name: Uwe Kleine-König
+      e-mail:
+        0: ukleinek@informatik.uni-freiburg.de
+        1: u.kleine-koenig@pengutronix.de
+        2: ukleinek@strlen.de
+        3: ukl@pengutronix.de
+        4: Uwe.Kleine-Koenig@digi.com
+    - name: Valdis Kletnieks
+      e-mail: Valdis.Kletnieks@vt.edu
+    - name: Vasily Averin
+      e-mail:
+        0: vasily.averin@linux.dev
+        1: vvs@virtuozzo.com
+        2: vvs@openvz.org
+        3: vvs@parallels.com
+        4: vvs@sw.ru
+    - name: Vinod Koul
+      e-mail:
+        0: vkoul@kernel.org
+        1: vinod.koul@intel.com
+        2: vinod.koul@linux.intel.com
+        3: vkoul@infradead.org
+    - name: Viresh Kumar
+      e-mail:
+        0: vireshk@kernel.org
+        1: viresh.kumar2@arm.com
+        2: viresh.kumar@st.com
+        3: viresh.linux@gmail.com
+        4: viresh.kumar@linaro.org
+        5: viresh.kumar@linaro.com
+    - name: Vivien Didelot
+      e-mail:
+        0: vivien.didelot@gmail.com
+        1: vivien.didelot@savoirfairelinux.com
+    - name: Vlad Dogaru
+      e-mail:
+        0: ddvlad@gmail.com
+        1: vlad.dogaru@intel.com
+    - name: Vladimir Davydov
+      e-mail:
+        0: vdavydov.dev@gmail.com
+        1: vdavydov@parallels.com
+    - name: Vladimir Davydov
+      e-mail:
+        0: vdavydov.dev@gmail.com
+        1: vdavydov@virtuozzo.com
+    - name: WeiXiong Liao
+      e-mail:
+        0: gmpy.liaowx@gmail.com
+        1: liaoweixiong@allwinnertech.com
+    - name: Will Deacon
+      e-mail:
+        0: will@kernel.org
+        1: will.deacon@arm.com
+    - name: Wolfram Sang
+      e-mail:
+        0: wsa@kernel.org
+        1: w.sang@pengutronix.de
+        2: wsa@the-dreams.de
+    - name: Yakir Yang
+      e-mail:
+        0: kuankuan.y@gmail.com
+        1: ykk@rock-chips.com
+    - name: Yusuke Goda
+      e-mail: goda.yusuke@renesas.com
+    - name: Zhu Yanjun
+      e-mail:
+        0: zyjzyj2000@gmail.com
+        1: yanjunz@nvidia.com
